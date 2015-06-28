@@ -7,5 +7,5 @@ $recipient = "abier@corelando.com";
 $subject = "Contact Form";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-echo "Thank You!";
+echo "Your message has been sent. A Core agent will be in touch shortly.";
 ?>

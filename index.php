@@ -48,7 +48,7 @@
 						<ul class="footer-contacts">
 							<li><i class="fa fa-map-marker"></i> 1600 N. Orange Ave Suite 201, Orlando, FL 32804</li>
 							<li><i class="fa fa-phone"></i> 407-477-2706</li>
-							<li><i class="fa fa-envelope"></i> <a href="mailto:info@fliporlando.com">info@fliporlando.com</a></li>
+							<li><i class="fa fa-envelope"></i> <a href="mailto:info@corelando.com">info@corelando.com</a></li>
 						</ul>
 					</div>
 					
@@ -62,7 +62,8 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12">
-							&copy; 2014 Core Real Estate Solutions, Inc. All rights reserved. 
+            <?php date_default_timezone_set('UTC'); ?>
+							&copy; <?php echo date("Y"); ?> Core Real Estate Solutions, Inc. All rights reserved. 
 							
 							
 						
